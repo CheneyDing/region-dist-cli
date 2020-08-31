@@ -13,7 +13,7 @@ import (
 	"unicode/utf8"
 )
 
-var pd = flag.String("pd", "http://172.16.4.21:2379", "pd address")
+var pd = flag.String("pd", "http://10.233.75.163:2379", "pd address")
 
 type Peer struct {
 	Id        uint64 `protobuf:"varint,1,opt,name=id,proto3" json:"id,omitempty"`
