@@ -1,3 +1,3 @@
-module github.com/CheneyDing/region-dist-cli
+module github.com/cheneyding/region-dist-cli
 
 go 1.13
